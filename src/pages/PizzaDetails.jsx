@@ -53,6 +53,7 @@ const PizzaDetails = () => {
     setIsUpdateNotificationDisplayed(true);
       setTimeout(function(){
         setIsUpdateNotificationDisplayed(false);
+        alert('I am alert, nice to meet you');
       },3000)
     
     dispatch(
